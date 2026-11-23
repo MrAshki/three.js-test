@@ -1,0 +1,134 @@
+- main [ref=f1e3]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [aria-hidden] [ref=f1e6]: A
+      - generic [ref=f1e7]:
+        - paragraph [ref=f1e8]: ARKA · RETAIL INTELLIGENCE
+        - heading "Sales decline investigation" [level=1] [ref=f1e9]
+    - generic [ref=f1e10]:
+      - generic [ref=f1e11]: SIMULATION ACTIVE
+      - generic [ref=f1e13]: Local mock data
+  - navigation "Story stages" [ref=f1e14]:
+    - button "01 Detection" [ref=f1e15] [cursor=pointer]:
+      - generic [ref=f1e16]: "01"
+      - text: Detection
+    - button "02 Evidence" [ref=f1e17] [cursor=pointer]:
+      - generic [ref=f1e18]: "02"
+      - text: Evidence
+    - button "03 AI Recommendation" [ref=f1e19] [cursor=pointer]:
+      - generic [ref=f1e20]: "03"
+      - text: AI Recommendation
+    - button "04 Manager Decision" [ref=f1e21] [cursor=pointer]:
+      - generic [ref=f1e22]: "04"
+      - text: Manager Decision
+    - button "05 Outcome" [ref=f1e23] [cursor=pointer]:
+      - generic [ref=f1e24]: "05"
+      - text: Outcome
+  - region "Sales decline story workspace" [ref=f1e25]:
+    - generic [ref=f1e26]:
+      - generic [ref=f1e27]:
+        - generic [ref=f1e28]:
+          - text: PRESENTATION CANVAS
+          - paragraph [ref=f1e29]: Select a structure · Drag to orbit · Scroll to zoom
+        - generic [ref=f1e30]:
+          - generic [ref=f1e31]: NO DECISION
+          - button "Reset View" [ref=f1e32] [cursor=pointer]
+      - generic [ref=f1e33]:
+        - generic [ref=f1e34]:
+          - application "Interactive 3D decision journey. Use arrow keys or number keys to select a stage. Drag to orbit and scroll to zoom." [active] [ref=f1e36]
+          - generic "3D workflow stages":
+            - button "01 Detection −18% sales" [ref=f1e37] [cursor=pointer]:
+              - generic [ref=f1e38]: "01"
+              - strong [ref=f1e39]: Detection
+              - generic [ref=f1e40]: −18% sales
+            - button "02 Evidence Observed, not causal" [ref=f1e41] [cursor=pointer]:
+              - generic [ref=f1e42]: "02"
+              - strong [ref=f1e43]: Evidence
+              - generic [ref=f1e44]: Observed, not causal
+            - button "03 AI Recommendation Review replenishment" [ref=f1e45] [cursor=pointer]:
+              - generic [ref=f1e46]: "03"
+              - strong [ref=f1e47]: AI Recommendation
+              - generic [ref=f1e48]: Review replenishment
+            - button "04 Manager Decision Decision required" [ref=f1e49] [cursor=pointer]:
+              - generic [ref=f1e50]: "04"
+              - strong [ref=f1e51]: Manager Decision
+              - generic [ref=f1e52]: Decision required
+            - button "05 Outcome too early" [ref=f1e53] [cursor=pointer]:
+              - generic [ref=f1e54]: "05"
+              - strong [ref=f1e55]: Outcome
+              - generic [ref=f1e56]: too early
+          - generic:
+            - generic: Decision journey
+            - generic: WebGL 2 fallback + TSL
+          - generic "Scene state legend" [ref=f1e57]:
+            - generic [ref=f1e58]: Observed
+            - generic [ref=f1e60]: Unverified
+            - generic [ref=f1e62]: Active flow
+        - generic [ref=f1e64]:
+          - article [ref=f1e65]:
+            - generic [ref=f1e66]:
+              - generic [ref=f1e67]: SALES INDEX
+              - strong [ref=f1e68]: "98"
+          - article [ref=f1e72]:
+            - generic [ref=f1e73]:
+              - generic [ref=f1e74]: INVENTORY UNITS
+              - strong [ref=f1e75]: "99"
+      - generic "Story workflow" [ref=f1e79]:
+        - generic [ref=f1e80]:
+          - generic [ref=f1e81]: STORY FLOW
+          - paragraph [ref=f1e82]: One simulated decision journey
+        - application [ref=f1e84]:
+          - generic [ref=f1e86]:
+            - generic:
+              - generic:
+                - img:
+                  - group "Edge from detection to evidence"
+                - img:
+                  - group "Edge from evidence to recommendation"
+                - img:
+                  - group "Edge from recommendation to decision"
+                - img:
+                  - group "Edge from decision to outcome"
+              - generic:
+                - group [ref=f1e87] [cursor=pointer]:
+                  - generic [ref=f1e88]:
+                    - generic [ref=f1e90]: "01"
+                    - strong [ref=f1e91]: Detection
+                    - text: ✓
+                - group [ref=f1e93] [cursor=pointer]:
+                  - generic [ref=f1e94]:
+                    - generic [ref=f1e96]: "02"
+                    - strong [ref=f1e97]: Evidence
+                    - text: ✓
+                - group [ref=f1e99] [cursor=pointer]:
+                  - generic [ref=f1e100]:
+                    - generic [ref=f1e102]: "03"
+                    - strong [ref=f1e103]: AI Recommendation
+                - group [ref=f1e105] [cursor=pointer]:
+                  - generic [ref=f1e106]:
+                    - generic [ref=f1e108]: "04"
+                    - strong [ref=f1e109]: Manager Decision
+                - group [ref=f1e111] [cursor=pointer]:
+                  - generic [ref=f1e112]:
+                    - generic [ref=f1e114]: "05"
+                    - strong [ref=f1e115]: Outcome
+    - complementary "Current story stage" [ref=f1e118]:
+      - generic [ref=f1e119]:
+        - generic [ref=f1e120]: "03"
+        - generic [ref=f1e121]: OF 05
+      - article [ref=f1e136]:
+        - paragraph [ref=f1e137]: Recommendation ready
+        - heading "Review replenishment priorities" [level=2] [ref=f1e138]
+        - paragraph [ref=f1e139]: The AI proposes a limited replenishment review for affected Accessories products.
+        - generic [ref=f1e140]:
+          - text: INVESTIGATION NOTE
+          - paragraph [ref=f1e141]: The proposal uses the observed sales and inventory signals. It does not claim a confirmed cause.
+        - generic [ref=f1e142]:
+          - text: NEXT ACTION
+          - paragraph [ref=f1e143]: Send the proposed review to the manager for a simulated decision.
+      - generic [ref=f1e130]:
+        - button "Previous story stage" [ref=f1e131] [cursor=pointer]: ←
+        - generic [ref=f1e132]:
+          - generic [ref=f1e133]: AI Recommendation
+          - generic [ref=f1e134]: 60% complete
+        - button "Next story stage" [ref=f1e135] [cursor=pointer]: →

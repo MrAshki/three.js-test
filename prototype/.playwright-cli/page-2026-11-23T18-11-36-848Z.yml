@@ -1,0 +1,111 @@
+- main [ref=f2e3]:
+  - generic [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - generic [aria-hidden] [ref=f2e6]: A
+      - generic [ref=f2e7]:
+        - paragraph [ref=f2e8]: ARKA · RETAIL INTELLIGENCE
+        - heading "Sales decline investigation" [level=1] [ref=f2e9]
+    - generic [ref=f2e10]:
+      - generic [ref=f2e11]: SIMULATION ACTIVE
+      - generic [ref=f2e13]: Local mock data
+  - navigation "Story stages" [ref=f2e14]:
+    - button "01 Detection" [ref=f2e15] [cursor=pointer]:
+      - generic [ref=f2e16]: "01"
+      - text: Detection
+    - button "02 Evidence" [ref=f2e17] [cursor=pointer]:
+      - generic [ref=f2e18]: "02"
+      - text: Evidence
+    - button "03 AI Recommendation" [ref=f2e19] [cursor=pointer]:
+      - generic [ref=f2e20]: "03"
+      - text: AI Recommendation
+    - button "04 Manager Decision" [ref=f2e21] [cursor=pointer]:
+      - generic [ref=f2e22]: "04"
+      - text: Manager Decision
+    - button "05 Outcome" [ref=f2e23] [cursor=pointer]:
+      - generic [ref=f2e24]: "05"
+      - text: Outcome
+  - region "Sales decline story workspace" [ref=f2e25]:
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]:
+        - generic [ref=f2e28]:
+          - text: PRESENTATION CANVAS
+          - paragraph [ref=f2e29]: Select a structure · Drag to orbit · Scroll to zoom
+        - generic [ref=f2e30]:
+          - generic [ref=f2e31]: NO DECISION
+          - button "Reset View" [ref=f2e32] [cursor=pointer]
+      - generic [ref=f2e33]:
+        - generic [ref=f2e34]:
+          - application "Interactive 3D decision journey. Use arrow keys or number keys to select a stage. Drag to orbit and scroll to zoom." [ref=f2e36]
+          - generic "3D workflow stages":
+            - button "01 Detection −18% sales" [ref=f2e37] [cursor=pointer]:
+              - generic [ref=f2e38]: "01"
+              - strong [ref=f2e39]: Detection
+              - generic [ref=f2e40]: −18% sales
+            - button "02 Evidence Observed, not causal" [ref=f2e41] [cursor=pointer]:
+              - generic [ref=f2e42]: "02"
+              - strong [ref=f2e43]: Evidence
+              - generic [ref=f2e44]: Observed, not causal
+            - button "03 AI Recommendation Review replenishment" [ref=f2e45] [cursor=pointer]:
+              - generic [ref=f2e46]: "03"
+              - strong [ref=f2e47]: AI Recommendation
+              - generic [ref=f2e48]: Review replenishment
+            - button "04 Manager Decision Decision required" [ref=f2e49] [cursor=pointer]:
+              - generic [ref=f2e50]: "04"
+              - strong [ref=f2e51]: Manager Decision
+              - generic [ref=f2e52]: Decision required
+            - button "05 Outcome too early" [ref=f2e53] [cursor=pointer]:
+              - generic [ref=f2e54]: "05"
+              - strong [ref=f2e55]: Outcome
+              - generic [ref=f2e56]: too early
+          - generic:
+            - generic: Decision journey
+            - generic: WebGL 2 fallback + TSL
+          - generic "Scene state legend" [ref=f2e57]:
+            - generic [ref=f2e58]: Observed
+            - generic [ref=f2e60]: Unverified
+            - generic [ref=f2e62]: Active flow
+        - generic [ref=f2e64]:
+          - article [ref=f2e65]:
+            - generic [ref=f2e66]:
+              - generic [ref=f2e67]: SALES INDEX
+              - strong [ref=f2e68]: "98"
+          - article [ref=f2e72]:
+            - generic [ref=f2e73]:
+              - generic [ref=f2e74]: INVENTORY UNITS
+              - strong [ref=f2e75]: "99"
+      - generic "Story workflow" [ref=f2e79]:
+        - generic [ref=f2e80]:
+          - generic [ref=f2e81]: STORY FLOW
+          - paragraph [ref=f2e82]: One simulated decision journey
+        - application [ref=f2e84]:
+          - generic [ref=f2e86]:
+            - generic:
+              - generic:
+                - img:
+                  - group "Edge from detection to evidence"
+                - img:
+                  - group "Edge from evidence to recommendation"
+                - img:
+                  - group "Edge from recommendation to decision"
+                - img:
+                  - group "Edge from decision to outcome"
+    - complementary "Current story stage" [ref=f2e88]:
+      - generic [ref=f2e89]:
+        - generic [ref=f2e90]: "01"
+        - generic [ref=f2e91]: OF 05
+      - article [ref=f2e92]:
+        - paragraph [ref=f2e93]: Signal detected
+        - heading "A category breaks the pattern" [level=2] [ref=f2e94]
+        - paragraph [ref=f2e95]: Accessories sales fell 18% while other retail categories stayed within their normal ranges.
+        - generic [ref=f2e96]:
+          - text: INVESTIGATION NOTE
+          - paragraph [ref=f2e97]: The decline starts in April and continues for three reporting periods.
+        - generic [ref=f2e98]:
+          - text: NEXT ACTION
+          - paragraph [ref=f2e99]: Open the evidence stage to compare the sales and inventory observations.
+      - generic [ref=f2e100]:
+        - button "Previous story stage" [ref=f2e101] [cursor=pointer]: ←
+        - generic [ref=f2e102]:
+          - generic [ref=f2e103]: Detection
+          - generic [ref=f2e104]: 20% complete
+        - button "Next story stage" [ref=f2e105] [cursor=pointer]: →

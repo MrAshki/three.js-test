@@ -1,0 +1,81 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [aria-hidden] [ref=e6]: A
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: ARKA · RETAIL INTELLIGENCE
+        - heading "Sales decline investigation" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]: SIMULATION ACTIVE
+      - generic [ref=e13]: Local mock data
+  - navigation "Story stages" [ref=e14]:
+    - button "01 Detection" [ref=e15] [cursor=pointer]:
+      - generic [ref=e16]: "01"
+      - text: Detection
+    - button "02 Evidence" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: "02"
+      - text: Evidence
+    - button "03 AI Recommendation" [ref=e19] [cursor=pointer]:
+      - generic [ref=e20]: "03"
+      - text: AI Recommendation
+    - button "04 Manager Decision" [ref=e21] [cursor=pointer]:
+      - generic [ref=e22]: "04"
+      - text: Manager Decision
+    - button "05 Outcome" [ref=e23] [cursor=pointer]:
+      - generic [ref=e24]: "05"
+      - text: Outcome
+  - region "Sales decline story workspace" [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - text: PRESENTATION CANVAS
+          - paragraph [ref=e29]: Drag the field to rotate · Scroll to zoom · Select a cluster
+        - generic "Product categories" [ref=e30]:
+          - button "Apparel" [ref=e31] [cursor=pointer]
+          - button "Footwear" [ref=e33] [cursor=pointer]
+          - button "Home" [ref=e35] [cursor=pointer]
+          - button "Accessories" [ref=e37] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - img "Interactive 3D retail category clusters. Drag to rotate, scroll to zoom, or select a cluster." [ref=e42]
+          - generic:
+            - generic: Live category field
+            - generic: Initializing
+          - generic "Highlighted category" [ref=e43]:
+            - generic [ref=e44]: ACCESSORIES
+            - strong [ref=e45]: −18%
+            - generic [ref=e46]: simulated sales decline
+        - generic [ref=e47]:
+          - article [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: SALES INDEX
+              - strong [ref=e51]: "98"
+          - article [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]: INVENTORY UNITS
+              - strong [ref=e57]: "99"
+      - generic "Story workflow" [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: STORY FLOW
+          - paragraph [ref=e63]: Five connected decision stages
+        - application [ref=e65]
+    - complementary "Current story stage" [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: "01"
+        - generic [ref=e72]: OF 05
+      - article [ref=e73]:
+        - paragraph [ref=e74]: Signal detected
+        - heading "A category breaks the pattern" [level=2] [ref=e75]
+        - paragraph [ref=e76]: Accessories sales fell 18% while the other retail categories stayed within their normal range.
+        - generic [ref=e77]:
+          - text: INVESTIGATION NOTE
+          - paragraph [ref=e78]: The decline starts in April and persists for three reporting periods.
+        - generic [ref=e79]:
+          - text: NEXT ACTION
+          - paragraph [ref=e80]: Open the evidence stage to compare sales with stock levels.
+      - generic [ref=e81]:
+        - button "Previous story stage" [ref=e82] [cursor=pointer]: ←
+        - generic [ref=e83]:
+          - generic [ref=e84]: Detection
+          - generic [ref=e85]: 20% complete
+        - button "Next story stage" [ref=e86] [cursor=pointer]: →

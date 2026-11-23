@@ -1,0 +1,114 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [aria-hidden] [ref=e6]: A
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: ARKA · RETAIL INTELLIGENCE
+        - heading "Sales decline investigation" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]: SIMULATION ACTIVE
+      - generic [ref=e13]: Local mock data
+  - navigation "Story stages" [ref=e14]:
+    - button "01 Detection" [ref=e15] [cursor=pointer]:
+      - generic [ref=e16]: "01"
+      - text: Detection
+    - button "02 Evidence" [active] [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: "02"
+      - text: Evidence
+    - button "03 AI Recommendation" [ref=e19] [cursor=pointer]:
+      - generic [ref=e20]: "03"
+      - text: AI Recommendation
+    - button "04 Manager Decision" [ref=e21] [cursor=pointer]:
+      - generic [ref=e22]: "04"
+      - text: Manager Decision
+    - button "05 Outcome" [ref=e23] [cursor=pointer]:
+      - generic [ref=e24]: "05"
+      - text: Outcome
+  - region "Sales decline story workspace" [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - text: PRESENTATION CANVAS
+          - paragraph [ref=e29]: Drag the field to rotate · Scroll to zoom · Select a cluster
+        - generic "Product categories" [ref=e30]:
+          - button "Apparel" [ref=e31] [cursor=pointer]
+          - button "Footwear" [ref=e33] [cursor=pointer]
+          - button "Home" [ref=e35] [cursor=pointer]
+          - button "Accessories" [ref=e37] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - img "Interactive 3D retail category clusters. Drag to rotate, scroll to zoom, or select a cluster." [ref=e42]
+          - generic:
+            - generic: Live category field
+            - generic: WebGPU + TSL
+          - generic "Highlighted category" [ref=e43]:
+            - generic [ref=e44]: ACCESSORIES
+            - strong [ref=e45]: −18%
+            - generic [ref=e46]: simulated sales decline
+        - generic [ref=e47]:
+          - article [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: SALES INDEX
+              - strong [ref=e51]: "98"
+          - article [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]: INVENTORY UNITS
+              - strong [ref=e57]: "99"
+      - generic "Story workflow" [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: STORY FLOW
+          - paragraph [ref=e63]: Five connected decision stages
+        - application [ref=e65]:
+          - generic [ref=e67]:
+            - generic:
+              - generic:
+                - img:
+                  - group "Edge from detection to evidence"
+                - img:
+                  - group "Edge from evidence to recommendation"
+                - img:
+                  - group "Edge from recommendation to decision"
+                - img:
+                  - group "Edge from decision to outcome"
+              - generic:
+                - group [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92]:
+                    - generic [ref=e94]: "01"
+                    - strong [ref=e95]: Detection
+                    - text: ✓
+                - group [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]:
+                    - generic [ref=e100]: "02"
+                    - strong [ref=e101]: Evidence
+                - group [ref=e103] [cursor=pointer]:
+                  - generic [ref=e104]:
+                    - generic [ref=e106]: "03"
+                    - strong [ref=e107]: AI Recommendation
+                - group [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]:
+                    - generic [ref=e112]: "04"
+                    - strong [ref=e113]: Manager Decision
+                - group [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116]:
+                    - generic [ref=e118]: "05"
+                    - strong [ref=e119]: Outcome
+    - complementary "Current story stage" [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: "02"
+        - generic [ref=e72]: OF 05
+      - article [ref=e121]:
+        - paragraph [ref=e122]: Evidence assembled
+        - heading "Inventory rises as demand slows" [level=2] [ref=e123]
+        - paragraph [ref=e124]: Accessories inventory increased 27 units while sales continued to soften across the same period.
+        - generic [ref=e125]:
+          - text: INVESTIGATION NOTE
+          - paragraph [ref=e126]: The inverse trend points to an assortment and placement issue, not a supply constraint.
+        - generic [ref=e127]:
+          - text: NEXT ACTION
+          - paragraph [ref=e128]: Review the AI recommendation for a controlled response.
+      - generic [ref=e81]:
+        - button "Previous story stage" [ref=e82] [cursor=pointer]: ←
+        - generic [ref=e83]:
+          - generic [ref=e84]: Evidence
+          - generic [ref=e85]: 40% complete
+        - button "Next story stage" [ref=e86] [cursor=pointer]: →

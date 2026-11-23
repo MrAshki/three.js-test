@@ -1,0 +1,132 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [aria-hidden] [ref=e6]: A
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: ARKA · RETAIL INTELLIGENCE
+        - heading "Sales decline investigation" [level=1] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]: SIMULATION ACTIVE
+      - generic [ref=e13]: Local mock data
+  - navigation "Story stages" [ref=e14]:
+    - button "01 Detection" [ref=e15] [cursor=pointer]:
+      - generic [ref=e16]: "01"
+      - text: Detection
+    - button "02 Evidence" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: "02"
+      - text: Evidence
+    - button "03 AI Recommendation" [ref=e19] [cursor=pointer]:
+      - generic [ref=e20]: "03"
+      - text: AI Recommendation
+    - button "04 Manager Decision" [ref=e21] [cursor=pointer]:
+      - generic [ref=e22]: "04"
+      - text: Manager Decision
+    - button "05 Outcome" [ref=e23] [cursor=pointer]:
+      - generic [ref=e24]: "05"
+      - text: Outcome
+  - region "Sales decline story workspace" [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - text: PRESENTATION CANVAS
+          - paragraph [ref=e29]: Select a structure · Drag to orbit · Scroll to zoom
+        - generic [ref=e30]:
+          - generic [ref=e31]: NO DECISION
+          - button "Reset View" [ref=e32] [cursor=pointer]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - application "Interactive 3D decision journey. Use arrow keys or number keys to select a stage. Drag to orbit and scroll to zoom." [ref=e36]
+          - generic "3D workflow stages":
+            - button "01 Detection −18% sales" [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]: "01"
+              - strong [ref=e39]: Detection
+              - generic [ref=e40]: −18% sales
+            - button "02 Evidence Observed, not causal" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: "02"
+              - strong [ref=e43]: Evidence
+              - generic [ref=e44]: Observed, not causal
+            - button "03 AI Recommendation Review replenishment" [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]: "03"
+              - strong [ref=e47]: AI Recommendation
+              - generic [ref=e48]: Review replenishment
+            - button "04 Manager Decision Decision required" [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]: "04"
+              - strong [ref=e51]: Manager Decision
+              - generic [ref=e52]: Decision required
+            - button "05 Outcome too early" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: "05"
+              - strong [ref=e55]: Outcome
+              - generic [ref=e56]: too early
+          - generic:
+            - generic: Decision journey
+            - generic: Initializing
+          - generic "Scene state legend" [ref=e57]:
+            - generic [ref=e58]: Observed
+            - generic [ref=e60]: Unverified
+            - generic [ref=e62]: Active flow
+        - generic [ref=e64]:
+          - article [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: SALES INDEX
+              - strong [ref=e68]: "98"
+          - article [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]: INVENTORY UNITS
+              - strong [ref=e74]: "99"
+      - generic "Story workflow" [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]: STORY FLOW
+          - paragraph [ref=e80]: One simulated decision journey
+        - application [ref=e82]:
+          - generic [ref=e84]:
+            - generic:
+              - generic:
+                - img:
+                  - group "Edge from detection to evidence"
+                - img:
+                  - group "Edge from evidence to recommendation"
+                - img:
+                  - group "Edge from recommendation to decision"
+                - img:
+                  - group "Edge from decision to outcome"
+              - generic:
+                - group [ref=e85] [cursor=pointer]:
+                  - generic [ref=e86]:
+                    - generic [ref=e88]: "01"
+                    - strong [ref=e89]: Detection
+                - group [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92]:
+                    - generic [ref=e94]: "02"
+                    - strong [ref=e95]: Evidence
+                - group [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]:
+                    - generic [ref=e100]: "03"
+                    - strong [ref=e101]: AI Recommendation
+                - group [ref=e103] [cursor=pointer]:
+                  - generic [ref=e104]:
+                    - generic [ref=e106]: "04"
+                    - strong [ref=e107]: Manager Decision
+                - group [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]:
+                    - generic [ref=e112]: "05"
+                    - strong [ref=e113]: Outcome
+    - complementary "Current story stage" [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]: "01"
+        - generic [ref=e119]: OF 05
+      - article [ref=e120]:
+        - paragraph [ref=e121]: Signal detected
+        - heading "A category breaks the pattern" [level=2] [ref=e122]
+        - paragraph [ref=e123]: Accessories sales fell 18% while other retail categories stayed within their normal ranges.
+        - generic [ref=e124]:
+          - text: INVESTIGATION NOTE
+          - paragraph [ref=e125]: The decline starts in April and continues for three reporting periods.
+        - generic [ref=e126]:
+          - text: NEXT ACTION
+          - paragraph [ref=e127]: Open the evidence stage to compare the sales and inventory observations.
+      - generic [ref=e128]:
+        - button "Previous story stage" [ref=e129] [cursor=pointer]: ←
+        - generic [ref=e130]:
+          - generic [ref=e131]: Detection
+          - generic [ref=e132]: 20% complete
+        - button "Next story stage" [ref=e133] [cursor=pointer]: →
